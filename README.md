@@ -3,6 +3,6 @@ Fikk det ikke til å funke når jeg kjørte det på min datamaskin med et annet 
 Har gjort litt endringer på det jeg har hentet fra gitrepoen hans nå men er fortsatt en del som ikke er egenprodusert. 
 
 Det som er gjort:
-Har lagt til en enkel navigasjon. Lagd en annen måte hente ut unik id på til nye elementer. Endret api.ts til å bruke axios istede for fetch. Synes fremdeles dette med api og backend er vanskelig 
+Har lagt til en enkel navigasjon. En annen måte å lage unik id på til nye gjøremål som blir lagt til. Endret api.ts til å bruke axios istede for fetch. Synes fremdeles dette med api og backend er vanskelig 
 
 Må kjøre npm run json-server før npm run dev
