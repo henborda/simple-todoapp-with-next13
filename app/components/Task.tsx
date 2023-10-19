@@ -51,11 +51,11 @@ const Task: React.FC<TaskProps> = ({ task }) => {
                 value={taskToEdit}
                 onChange={(e) => setTaskToEdit(e.target.value)}
                 type='text'
-                placeholder='Type here'
+                placeholder='Skriv her'
                 className='input input-bordered w-full'
               />
               <button type='submit' className='btn'>
-                Submit
+                Bekreft
               </button>
             </div>
           </form>
@@ -68,11 +68,11 @@ const Task: React.FC<TaskProps> = ({ task }) => {
         />
         <Modal modalOpen={openModalDeleted} setModalOpen={setOpenModalDeleted}>
           <h3 className='text-lg'>
-            Are you sure, you want to delete this task?
+            Er du sikker på du vil slette denne?
           </h3>
           <div className='modal-action'>
             <button onClick={() => handleDeleteTask(task.id)} className='btn'>
-              Yes
+              Ja
             </button>
           </div>
         </Modal>
