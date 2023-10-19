@@ -1,15 +1,5 @@
 Prøvde å bruke han her som mal for å løse oppgaven: https://www.youtube.com/watch?v=wi2xdrpmJNk&t=357s&ab_channel=CandDev
-Fikk det ikke til å funke når jeg kjørte det på min datamaskin. Endte med at jeg forka prosjektet hans. Da funket det plutselig uten at jeg kan se hva som er forskjellen på hans og min. 
-
-Prøvde flere ganger å lage nytt next prosjekt med npx create-next-app@latest med fikk denne feilmeldingen: 
-npm ERR! code ENOENT
-npm ERR! syscall lstat
-npm ERR! path C:\Users\Henrik\WebapplikasjonerClone\webapp-2023\'~
-npm ERR! errno -4058
-npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\Henrik\WebapplikasjonerClone\webapp-2023\'~'
-npm ERR! enoent This is related to npm not being able to find a file.
-npm ERR! enoent
-
-
+Fikk det ikke til å funke når jeg kjørte det på min datamaskin. Endte med at jeg tilslutt måtte forke prosjektet hans. Da funket det uten at jeg kan se hva som gjør at prosjektet jeg startet på skal få feil. Først feilen oppsto på return i api.ts filen med return todos osv... 
+Har gjort lite endringer på det jeg har hentet fra gitrepoen hans nå men er fortsatt stort sett ikke egenprodusert. Synes fremdeles dette med api og backend er vanskelig 
 
 Må kjøre npm run json-server først
