@@ -24,7 +24,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/uuid": "^9.0.1",
+    "@types/uuid": "^9.0.6",
     "autoprefixer": "^10.4.14",
     "json-server": "^0.17.3",
     "postcss": "^8.4.21",
