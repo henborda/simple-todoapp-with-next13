@@ -1,20 +1,16 @@
 {
   "tasks": [
     {
-      "id": "64e139fc-db33-4509-9a70-73dd13f52bdd",
+      "id": "dummy1",
       "text": "Trene"
     },
     {
-      "id": "4e3d37a2-3834-4d4b-8cc3-7e36ea9a2b06",
+      "id": "dummy2",
       "text": "Lage middag"
     },
     {
-      "id": "e745fd0b-04eb-4e06-9b57-504c74893846",
+      "id": "dummy3",
       "text": "Gjøre next introduksjon"
-    },
-    {
-      "id": "task-1",
-      "text": "Vaske"
     }
   ]
 }

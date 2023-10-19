@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface ModalProps {
   modalOpen: boolean;
   setModalOpen: (open: boolean) => boolean | void;
