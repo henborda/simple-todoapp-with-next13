@@ -1,10 +1,8 @@
-import { getAllTodos } from "@/api";
-import AddTask from "./components/AddTask";
-import TodoList from "./components/TodoList";
+
+import AddTask from "./components/AddTask";;
 import Link from "next/link";
 
 export default async function Home() {
-  const tasks = await getAllTodos();
 
   return (
     <main className='max-w-6xl mx-auto mt-4'>
