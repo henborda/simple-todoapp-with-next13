@@ -45,7 +45,7 @@ const Task: React.FC<TaskProps> = ({ task }) => {
         />
         <Modal modalOpen={openModalEdit} setModalOpen={setOpenModalEdit}>
           <form onSubmit={handleSubmitEditTodo}>
-            <h3 className='font-bold text-lg'>Edit task</h3>
+            <h3 className='font-bold text-lg'>Endre oppgave</h3>
             <div className='modal-action'>
               <input
                 value={taskToEdit}
