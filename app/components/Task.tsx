@@ -17,22 +17,32 @@ const Task: React.FC<TaskProps> = ({ task }) => {
   const [openModalDeleted, setOpenModalDeleted] = useState<boolean>(false);
   const [taskToEdit, setTaskToEdit] = useState<string>(task.text);
 
+
   const handleSubmitEditTodo: FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
-    await editTodo({
-      id: task.id,
-      text: taskToEdit,
-    });
-    setOpenModalEdit(false);
-    router.refresh();
+    try {
+      await editTodo({
+        id: task.id,
+        text: taskToEdit,
+      });
+      setOpenModalEdit(false);
+      router.refresh();
+    } catch (error) {
+      console.error("Feil ved redigering av oppgave", error);
+
+    }
   };
 
   const handleDeleteTask = async (id: string) => {
-    await deleteTodo(id);
-    setOpenModalDeleted(false);
-    router.refresh();
+    try {
+      await deleteTodo(id);
+      setOpenModalDeleted(false);
+      router.refresh();
+    } catch (error) {
+      console.error("Feil ved sletting av oppgave", error);
+    }
   };
-
+  
   return (
     <tr key={task.id}>
       <td className='w-full'>{task.text}</td>
